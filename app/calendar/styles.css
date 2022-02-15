@@ -1,0 +1,44 @@
+.calendar{
+    width: 100%;
+  display:inline-block;
+  flex-direction:row;
+  margin: 5px;
+
+}
+.calendar .day{
+    position:relative; 
+    width: calc(100% /7);
+    height: 44px;
+    display: inline-block;
+    background-color: white;
+    padding:0 ;
+    margin: 0;
+    box-sizing: border-box;
+    z-index: 1;
+    text-align: center;
+}
+.selected:hover{
+    background-color: aqua;
+}
+.before:hover{
+    background-color: aqua
+}
+.body{
+    margin-top: 2px;
+    border: solid 2px greenyellow;
+}
+.header{
+    background-color:greenyellow;
+    text-align: center;
+    height: 50px;
+}
+.days{
+    display: inline-block;
+    background-color: rgb(192, 226, 141);
+    height: 30px;
+}
+.week{
+    display: inline-block;
+    margin-left: 61.5px;
+    margin-right: 61.5px;
+}
